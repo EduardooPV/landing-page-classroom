@@ -26,6 +26,9 @@ p.titles__sections{
 /* ---------------- CONTAINER FATHER ---------------- */
 .main {
     padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -122,6 +125,11 @@ p.titles__sections{
 }
 
 /* ---------------- MARK ---------------- */
+.mark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .mark > p {
     max-width: 90%;
     margin: 0 auto;
@@ -199,7 +207,6 @@ p.titles__sections{
 }
 
 .services__content {
-    height:100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -244,4 +251,37 @@ p.titles__sections{
 .card__2 .services__card__title,
 .card__2 a{
     color: #FFB900;
+}
+
+/* ---------------- DIFFERENTIALS ---------------- */
+.differentials > p {
+    margin: 5rem 0;
+}
+.differentials__border {
+    border: 3px solid #DEDEDE;
+}
+
+.differentials__card {
+    max-width:323px;
+}
+
+.differentials__card:nth-child(n+1):nth-child(n+2):before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color:#DEDEDE;
+}
+
+.differentials__card__title {
+    margin: 1.3rem;
+    color: #F25022;
+    font-weight: 600;
+}
+
+.differentials__card__description {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 1.5rem ;
+    font-size: 0.9rem;
 }
