@@ -133,12 +133,13 @@ p.titles__sections{
 
 /* ---------------- MARK CARD ---------------- */
 .mark__card {
-    height: 10rem;
+    max-width: 324px;
     padding: 1rem;
     margin: 1.5rem 0;
 
     display: flex;
     align-items: center;
+    justify-content:center;
 
     border-radius: 2px;
 
@@ -188,4 +189,59 @@ p.titles__sections{
 
 .card__05 {
     background-color:#00AFF0;
+}
+
+/* ---------------- SERVICES---------------- */
+.services__card {
+    max-width: 324px;
+    margin: 2rem 0;
+    display: flex;
+}
+
+.services__content {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.services__content > a {
+    width: 7rem;
+    padding: 0.3rem 0.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 2px;
+    border: 2px solid currentColor;
+}
+
+.services__card__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.services__card__description {
+    margin: 1.8rem 0;
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+
+/* ---------------- SERVICES CARD TEXT COLOR ---------------- */
+
+.card__0 .services__card__title,
+.card__0 a{
+    color: #7FBA00;
+}
+
+.card__1 .services__card__title,
+.card__1 a{
+    color: #00A4EF;
+}
+
+.card__2 .services__card__title,
+.card__2 a{
+    color: #FFB900;
 }
