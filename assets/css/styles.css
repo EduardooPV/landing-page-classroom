@@ -10,8 +10,7 @@
 }
 
 /* ---------------- FORMAT (<p></p>) ---------------- */
-p {    
-    font-size: 1.1rem;
+body {    
     color: var(--gray-text);
     line-height: 1.8;
     text-align: center;
@@ -21,7 +20,7 @@ p {
 p.titles__sections{
     font-size: 1.7rem;
     color: var(--blue-dark);
-    text-align: center;
+    font-weight: 600;
 }
 
 /* ---------------- CONTAINER FATHER ---------------- */
@@ -111,34 +110,25 @@ p.titles__sections{
     width: 80%;
 }
 
-/* ---------------- DESCRIPTION ---------------- */
-.description {
-    padding: 3.5rem 0 2.8rem 0;
-    
-    display: flex;
-    align-items:center;
-    flex-direction: column;
+/* ---------------- ABOUT ---------------- */
+.about {
+    max-width:90%;
+    padding: 3.5rem 0 2.0rem 0;
+    margin: 0 auto;
 }
 
-.description p:first-child{
+.about p:first-child{
     margin-bottom: 1rem;
 }
 
-
 /* ---------------- MARK ---------------- */
-.mark__title {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.mark__title p:last-child {
-    margin-top: 1rem;
+.mark > p {
     max-width: 90%;
+    margin: 0 auto;
 }
 
-.mark__content {
-
+.mark p:first-child {
+    margin-bottom: 1.2rem;
 }
 
 /* ---------------- MARK CARD ---------------- */
@@ -148,35 +138,34 @@ p.titles__sections{
     margin: 1.5rem 0;
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     border-radius: 2px;
 
-    background-color:#0072C6;
     color: white;
 }
 
 .mark__card__content {
+    margin-left: 0.8rem;
+
     display: flex;
     flex-direction: column;
-    margin: 1rem;
 }
 
 .mark__card__title {
-    margin: 0.5rem 0;
+    margin-bottom: 0.3rem;
+
     font-size: 1.3rem;
+    font-weight: 600;
+    text-align: start;
 }
 
 .mark__card__description {
-    color: white;
     text-align: start;
     font-size: 0.9rem;
 }
 
-
-
-
+/* ---------------- MARK CARD BACKGROUND---------------- */
 .card__00 {
     background-color: #0072C6;
 }
