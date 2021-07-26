@@ -60,7 +60,7 @@ p.titles__sections{
 }
 
 .header__navbar__logo {
-    padding: 0.5rem 1.2rem;
+    padding: 0.2rem 1.2rem;
     margin-right: 1rem;
     background-color: var(--blue-dark-background);
 
@@ -83,7 +83,7 @@ p.titles__sections{
 }
 
 .home h1 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
     font-size: 2.6rem;
 }
 
@@ -95,8 +95,8 @@ p.titles__sections{
 }
 
 .home a {
-    margin-top: 2rem;
-    padding: 0.8rem 2.1rem;
+    margin-top: 4rem;
+    padding: 0.7rem 2.3rem;
 
     background-color: var(--blue-button);
     color: var(--white);
@@ -116,7 +116,7 @@ p.titles__sections{
 /* ---------------- ABOUT ---------------- */
 .about {
     max-width:90%;
-    padding: 3.5rem 0 2.0rem 0;
+    padding: 4.5rem 0 2.0rem 0;
     margin: 0 auto;
 }
 
@@ -129,10 +129,11 @@ p.titles__sections{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3.5rem;
 }
 .mark > p {
     max-width: 90%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
 }
 
 .mark p:first-child {
@@ -143,7 +144,7 @@ p.titles__sections{
 .mark__card {
     max-width: 324px;
     padding: 1rem;
-    margin: 1.5rem 0;
+    margin: 0.8rem 0;
 
     display: flex;
     align-items: center;
@@ -255,7 +256,7 @@ p.titles__sections{
 
 /* ---------------- DIFFERENTIALS ---------------- */
 .differentials > p {
-    margin: 5rem 0;
+    margin: 2rem 0 3.5rem 0;
 }
 .differentials__border {
     border: 3px solid #DEDEDE;
@@ -284,4 +285,63 @@ p.titles__sections{
     width: 90%;
     margin-bottom: 1.5rem ;
     font-size: 0.9rem;
+}
+
+/* ---------------- COMMUNITY ---------------- */
+.community {
+    width: 100vw;
+    background: url("../imgs/Grupo\ 89.png") no-repeat center;
+
+    margin: 3rem 0;
+}
+
+.community p {
+    margin: 4rem auto;
+    width: 80%;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.text__footer {
+    width: 90%;
+}
+
+/* ---------------- FOOTER ---------------- */
+.footer {
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 100%;
+    background-color: #E6E6E6;
+    text-align: start;
+}
+
+form input {
+    width: 100%;
+    height:45px;
+    margin-bottom: 1.5rem;
+    outline: 0;
+}
+
+form input:focus {
+    border: 2px solid #2571B7;
+}
+
+form input {
+    padding: 0 1rem;
+    color: #737373;
+}
+
+form label {
+    font-size: 0.9rem;
+}
+
+form button {
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.8rem;
+    padding: 0.9rem 0;
+    width:100%;
+    background-color: var(--blue-button);
+    
 }
